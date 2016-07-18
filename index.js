@@ -17,13 +17,13 @@ api.useMiddlewares([
 api.useModels([
 	[apiModule.key, apiModule.model],
 	[apiModuleExtended.key, apiModuleExtended.model],
-	[appFrontend.key, appFrontend.model],
+	[appFrontend.key, appFrontend.model]
 ]);
 
 api.useRoutes([
 	[apiModule.key, apiModule.route],
 	[apiModuleExtended.key, apiModuleExtended.route],
-	[appFrontend.key, appFrontend.route],
+	[appFrontend.key, appFrontend.route]
 ]);
 
 api.run();
