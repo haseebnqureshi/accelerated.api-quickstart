@@ -6,10 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 $script = <<SCRIPT
 	sudo su
-	apt-get clean -y
-	apt-get update -y
-	bash ./provisioners/git.sh
-	bash ./provisioners/node.sh
+	bash ./main.sh
 	exit
 SCRIPT
 
